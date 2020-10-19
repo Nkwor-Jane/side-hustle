@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="book.css">
+    <title>Book Table</title>
+</head>
+<body>
+    <section class="section-1">
+        <h1>MAKE A RESERVATION WITH <br>YOUR FRIENDS AND LOVED ONES</h1>
+    </section>
+
+            <section class="form-sec">
+                <form  id="regForm" method="POST" action="success.html" >
+                    <div class="form-control">
+                        <input type="text" name="name" id="name" placeholder="Name" required><br>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" id="email" placeholder="Email" required><br>
+                    </div>
+                    <div class="form-control  input2">
+                        <label for="date">Pick a date</label>
+                        <input type="text" placeholder="DD" id="date" class="input3" required>
+                        <input type="text" placeholder="MM" id="date" class="input3" required>
+                        <input type="text" placeholder="YYYY" id="date" required>
+                    </div>
+                    <div class="form-control input2">
+                        <label for="time">Pick a time</label>
+                        <input type="text" placeholder="00" id="time" class="input3" required>
+                        <input type="text" placeholder="00" id="time" class="input3" required>
+                        <select id="date" class="select1">
+                            <option value="am">AM</option>
+                            <option value="pm">PM</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                      <select id="people" class="select2">
+                          <option value="4">4 people</option>
+                          <option value="5">5 people</option>
+                          <option value="6">6 people</option>
+                          <option value="7">7 people</option>
+                          <option value="8">8 people</option>
+                          <option value="9">9 people</option>
+                          <option value="10">10 and above</option>
+                      </select>
+                    </div>
+                    <a href="success.html"><button type="submit">Submit Reservation</button></a>
+            </form>
+    
+            </section>
+
+    <footer class="footer">
+        <section class="section-3-1">
+            <div class="div-3-1">
+                <h4>dine</h4> 
+            </div>
+            <div class="div-3-2">
+                <p>MARTHWAITE SEDBERGH <br>CUMBRIA</p>
+                <p>*00 44 123 4567</p>
+            </div>
+            <div class="div-3-3">
+                <p>OPEN TIMES</p>
+                <p>MON - FRI: 09:00 AM - 10:00PM</p>
+                <p>SAT - SUN: 09:00 AM - 11:30PM</p>
+            </div>
+    </footer>
+</body>
+</html>

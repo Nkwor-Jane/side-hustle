@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+
+/* section-1 */
+.section-1-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 400px;
+    max-width: 100%;
+    color: rgb(20, 72, 216);
+    background-image: url(rice-images.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+}
+.section-1-1 h4 {
+    font-size: 5rem;
+}
+
+.section-1-1 h2{
+    font-size: 3em;
+}
+.section-1-1 p{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.section-1-1 .div-1-1{
+    flex-basis: 50%;
+    margin:20px;  
+}
+
+
+
+
+
+.section-2{
+    text-align: center;
+
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-2-2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    padding:10px;
+    font-size: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+/* section-3 */
+.section-3-1{
+    margin-top:150px;
+    background-color: #000;
+    color:  rgb(179, 173, 173);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   font-size: 1rem;
+}
+.footer.section-3 .div-3-1,
+.footer.section-3 .div3-2{
+    padding:10px;
+    margin:15px;
+}
+.footer .section-3 .div-3-1 h4{
+    font-size:3rem;
+    color:#fff;
+}
+.footer.section-3 .div-3-2 p,.footer.section-3 .div-3-3 p{
+    font-size: 10px;
+    padding:2px;
+}
